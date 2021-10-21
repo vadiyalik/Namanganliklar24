@@ -96,8 +96,6 @@ body{
   border-radius: 39px;
   list-style: none;
   text-align: center;
-  /* margin-top: 35px;
-  margin-bottom: 34px; */
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -106,7 +104,6 @@ body{
   display: flex;
   font-family: "Rubik", "Arial", sans-serif;
   font-size: 13px;
-  /* justify-content: space-between; */
 
 }
 
@@ -133,8 +130,6 @@ line-height: 17px;
 
 .sitenav-container{
   width: 1200px;
-  /* margin-top: 30px; */
-  /* margin-bottom: 20px; */
 font-size: 18px;
 line-height: 21.33px;
 font-weight: 500;
@@ -163,5 +158,5 @@ text-decoration: none;
 }
 
 .ads-pics{
-margin-left: 105px;
+margin-left: 168px;
 }
