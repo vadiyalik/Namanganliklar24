@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Namanganliklar24</title>
 </head>
-<body>
-  <!-- HEADER -->
+<div>
+  <!-- SITE-HEADER -->
 
   <header class="site-header">
     <div class="site-header-container container">
@@ -37,29 +37,15 @@
 
       <div class="header-right">
         <div class="header-right-item">
-          <div class="header-search">
-            <div class="header-search-icon">
-              <img src="img/search.png" alt="" width="20" height="20">
-            </div>
-            <div class="header-search-text">
-              Поиск
-            </div>
+          <form action="https://echo.htmlacademy.ru" method="GET"><input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required ></form>
+
+          <div  class="lang-toggle">
+            <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
+            <a class="lang-toggle-link" href="index.html/ru">РУ</a>
           </div>
 
-          <div class="language">
-            <div class="language-item">
-              <div>
-                УЗ
-              </div>
-              <div>
-                РУ
-              </div>
-            </div>
-          </div>
+          <a class="button button-primary" href="#">Войти</a>
 
-          <div class="log-in">
-            <a class="log-in-text" href="#">Войти</a>
-          </div>
         </div>
 
       </div>
@@ -67,25 +53,136 @@
 
     <!-- SITE-NAV -->
 
-    <nav class="sitenav-container container">
-      <ul class="sitenav-list">
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Главное</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Интересное</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Экономика</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Политика</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Общество</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Технологии</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Спорт</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Культура</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Происшествия</a></li>
-        <li class="sitenav-item"> <a class="sitenav-link" href="#">Наука</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Главное</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Интересное</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Экономика</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Политика</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Общество</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Технологии</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Спорт</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Культура</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Происшествия</a></li>
+          <li class="sitenav-item"> <a class="sitenav-link" href="#">Наука</a></li>
+        </ul>
+      </nav>
 
 
+      <!-- ADS -->
 
-    <!-- ADS -->
-    <img  class="ads-pics" src="img/optimize .jpg" alt="reklama posteri" width="1200" height="128"
-    >
-  </body>
-  </html>
+
+      <aside class="site-header-banner">
+        <a class="site-header-banner-link" href="#" target="_blank">
+          <img  class="ads-pics" src="img/optimize .jpg" alt="reklama posteri" width="1200" height="128" srcset="img/optimize .jpg 1x, img/optimize@2x  .jpg 2x">
+        </a>
+      </aside>
+
+
+    </div>
+  </header>
+
+
+ <!-- MAIN CONTENT -->
+<main class="main-content">
+  <div class="main-container container">
+     <div class="main-cards">
+       <div class="main-cards-item">
+         <h2 class="main-cards-h2">
+           Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения
+          </h2>
+          <p class="main-cards-paragraf">
+            Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...
+          </p>
+          <img class="main-cards-img" src="img/flag.png" alt="Germaniya bayrog'i va katta bino tasviri" width="360" height="165" srcset="img/flag.png 1x, img/flag@2x.png 2x" >
+          <div class="main-cards-lower">
+            <img src="img/image 1.svg" alt="" class="lower-img" width="20" height="20">
+            <p class="lower-data">ИА Красная Весна 15:55</p>
+          </div>
+       </div>
+
+       <div class="main-cards-item">
+         <h2 class="main-cards-h2">
+          Ученые доказали экспериментальным путем пользу покровных культур
+         </h2>
+          <p class="main-cards-paragraf">
+            Новое исследование ученых университета Иллинойса объединяет полевые данные...
+          </p>
+          <img class="main-carsds-img" src="img/barley.png" alt="Arpa dalasidagi boshoqlar rasmi"
+          width="360" height="165" srcset="img/barley.png 1x, img/barley@2x.png 2x" >
+          <div class="main-cards-lower">
+            <img src="img/image 2.svg" alt="" class="lower-img" width="20" height="20">
+            <p class="lower-data">Газета.Ru 12:54</p>
+          </div>
+       </div>
+
+       <div class="main-cards-item">
+        <h2 class="main-cards-h2">
+          Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
+         </h2>
+          <p class="main-cards-paragraf">
+            Автопарк Baidu состоит из модифицированных электромобилей EV...
+          </p>
+          <img class="main-carsds-img" src="img/apollo.png" alt="qiz mashinaga minyapti" width="360" height="165" srcset="img/apollo.png 1x, img/apollo@2x.png 2x">
+          <div class="main-cards-lower">
+            <img src="img/image 3.svg" alt="" class="lower-img" width="20" height="20">
+            <p class="lower-data">Хайтек+ 13:44</p>
+          </div>
+       </div>
+
+       <div class="main-cards-item">
+       <h2 class="main-cards-h2">
+          Стали известны ёмкости аккумуляторов всех моделей iPhone 13
+         </h2>
+          <p class="main-cards-paragraf">
+            Во время презентации iPhone 13 Apple придала большое значения...
+          </p>
+          <img class="main-carsds-img" src="img/phone.png" alt="Iphone13 rasmi" width="360" height="165" srcset="img/phone.png 1x, img/phone@2x.png 2x">
+          <div class="main-cards-lower">
+            <img src="img/image 4.svg" alt="" class="lower-img" width="20" height="20">
+            <p class="lower-data">Digger.ru 14:25</p>
+          </div>
+       </div>
+
+       <div class="main-cards-item">
+        <h2 class="main-cards-h2">
+          Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2
+         </h2>
+          <p class="main-cards-paragraf">
+            Во время презентации iPhone 13 Apple придала большое значения...
+          </p>
+          <img class="main-carsds-img" src="img/doctors.png" alt="doktorlar kasallikni tekshirishyapti" width="360" height="165" srcset="img/doctors.png 1x, img/doctors@2x.png 2x">
+          <div class="main-cards-lower">
+            <img src="img/image 5 .svg" alt="" class="lower-img" width="20" height="20">
+            <p class="lower-data">Lenta.ru 10:54</p>
+          </div>
+       </div>
+
+       <div class="main-cards-item">
+        <h2 class="main-cards-h2">
+          Китайская марка JAC повысила цены на лифтбек и пикап в <br> России
+         </h2>
+          <p class="main-cards-paragraf">
+            Две модели китайского бренда JAC из пяти, представленных на российском...
+          </p>
+          <img class="main-carsds-img" src="img/car.png" alt="qora, yangi mashina" width="360" height="175" srcset="img/car.png 1x, img/car@2x.png 2x">
+          <div class="main-cards-lower">
+            <img src="img/image 6.svg" alt="" class="lower-img" width="20" height="20">
+            <p class="lower-data">Тарантас Ньюс 10:44</p>
+          </div>
+       </div>
+     </div>
+
+     <div class="notification">
+        <h2 class="notice-h2">
+          Хотите быть в курсе свежих новостей?  Включите уведомления!
+        </h2>
+         <a href="#" class="button button-turnoff">Включит</a>
+     </div>
+  </div>
+</main>
+
+</body>
+
+</html>
