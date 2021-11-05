@@ -201,7 +201,7 @@ img{
 /* MAIN CONTENT */
 .main-container{
   margin-top: 50px;
- flex-grow: 1;
+  flex-grow: 1;
 }
 
 .main-cards{
@@ -332,9 +332,6 @@ img{
   line-height: 14px;
 }
 
-.source-img{
-
-}
 
 /* CARDS RIGHT */
 
@@ -380,12 +377,110 @@ img{
 
 /* NEW NEWS */
 .new-news{
-background-color: #eaeaea;
-width: 796px;
-border-radius: 15px;
-padding: 17px 343px;
-font-size: 16px;
-line-height: 19px;
-font-weight: 500;
-color: #000;
+  background-color: #eaeaea;
+  width: 796px;
+  border-radius: 15px;
+  padding: 17px 343px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #000;
+}
+
+/*  SITE-FOOTER */
+
+.site-footer {
+  font-family: "Rubik", "Arial" sans-serif;
+}
+.site-footer-section {
+  background-color: #039be5;
+  width: 100%;
+  max-width: 1440px;
+}
+.site-footer-container {
+  width: 100%;
+  max-width: 998px;
+  margin-left: 221px;
+  margin-right: 221px;
+}
+
+.site-left-right-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.site-footer-left {
+  margin-top: 40px;
+}
+
+.logo-footer {
+  background-color: #039be5;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: #fff;
+  width: 100%;
+  max-width: 280px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+.site-footer-right {
+  display: flex;
+  margin-top: 83px;
+}
+.footer-right-left-list {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+.footer-items-link {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-items {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  align-items: flex-start;
+
+}
+.footer-right-right-list {
+  list-style: none;
+  margin-top: 0;
+  margin-left: 100px;
+  padding-left: 0;
+}
+.footer-line {
+  margin: 0;
+  padding: 0;
+}
+.footer-subsection {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.social-networks {
+  color: #fff;
+  width: 161px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.footer-img-link-wrap {
+  display: flex;
+  margin-top: 31px;
+  width: 175px;
+  justify-content: space-between;
+
 }
