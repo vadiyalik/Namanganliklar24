@@ -201,7 +201,7 @@ img{
 /* MAIN CONTENT */
 .main-container{
   margin-top: 50px;
-
+ flex-grow: 1;
 }
 
 .main-cards{
