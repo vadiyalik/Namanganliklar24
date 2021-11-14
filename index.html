@@ -38,7 +38,10 @@
 
       <div class="header-right">
         <div class="header-right-item">
-          <form action="https://echo.htmlacademy.ru" method="GET"><input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required ></form>
+          <div class="search-wrapper">
+            <form action="https://echo.htmlacademy.ru" method="GET"><input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required ></form>
+          </div>
+
 
           <div  class="lang-toggle">
             <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
@@ -190,7 +193,7 @@
           <!-- CARDS LEFT -->
           <div class="news-cards-left">
             <div class="news-cards-wrap">
-              <img class="cards-left-img" src="img/plane.jpg" alt="samalyot rasmi" width="210" height="165" srcset="img/plane.jpg 1x, img/plane@2x.jpg 2x" >
+              <img class="cards-left-img" src="img/plane.png" alt="samalyot rasmi" width="210" height="165" srcset="img/plane.png 1x, img/plane@2x.png 2x" >
               <div class="cards-left-section">
                 <h2 class="global-news-h2">
                   Китайский Чунцин запустил чартерный рейс для студентов до Британии
@@ -265,41 +268,55 @@
           <!-- CARDS RIGHT -->
 
           <div class="right-section">
+
             <div class="global-cards-right ">
               <h2 class="news-heading-right">Главное</h2>
-              <h3 class="news-heading-h3">
-                В Фергане создадут узбекско-пакистанский университет
-              </h3>
-              <p class="news-right-data">
-                Sputnik Узбекистан 14:09
-              </p>
-              <hr class="border-botton">
+              <div class="news-heading-h3-wrapper">
+                <h3 class="news-heading-h3">
+                  В Фергане создадут узбекско-пакистанский университет
+                </h3>
+                <p class="news-right-data">
+                  Sputnik Узбекистан 14:09
+                </p>
+              </div>
 
-              <h3 class="news-heading-h3">
-                Узбекистан утвердил соглашение о содействии занятости в странах СНГ
-              </h3>
-              <p class="news-right-data">
-                ИА Красная Весна 10:19
-              </p>
               <hr class="border-botton">
+              <div class="news-heading-h3-wrapper">
+                <h3 class="news-heading-h3">
+                  Узбекистан утвердил соглашение о содействии  странах СНГ
+                </h3>
+                <p class="news-right-data">
+                  ИА Красная Весна 10:19
+                </p>
+              </div>
 
-              <h3 class="news-heading-h3">
-                В Узбекистане увеличиваются очереди за автомобилями UzAuto
-              </h3>
-              <p class="news-right-data">
-                Северная газета (Армянск) 13:50
-              </p>
               <hr class="border-botton">
+              <div class="news-heading-h3-wrapper">
+                <h3 class="news-heading-h3">
+                  В Узбекистане увеличиваются очереди за автомобилями UzAuto
+                </h3>
+                <p class="news-right-data">
+                  Северная газета (Армянск) 13:50
+                </p>
+              </div>
 
-              <h3 class="news-heading-h3">
-                Минтуризма опровергло приостановку выплат за шаги
-              </h3>
-              <p class="news-right-data">
-                Sputnik Узбекистан 14:32
-              </p>
+              <hr class="border-botton">
+              <div class="news-heading-h3-wrapper">
+                <h3 class="news-heading-h3">
+                  Минтуризма опровергло приостановку выплат за шаги
+                </h3>
+                <p class="news-right-data">
+                  Sputnik Узбекистан 14:32
+                </p>
+              </div>
+
             </div>
+              <aside class="right-section-aside">
+                <a href="#" class="aside-img-link">
+                  <img class="right-section-img" src="img/ads-right.jpg" alt="reklama banneri" width="393" height="338" >
+                </a>
+              </aside>
 
-            <img class="right-section-img" src="img/ads-right.jpg" alt="reklama banneri" width="393" height="338" >
           </div>
         </div>
         <div class="new-news">Показать ещё </div>
@@ -314,7 +331,7 @@
   <!-- SITE-FOOTER -->
 
   <footer class="site-footer">
-    <section class="site-footer-section">  <!--  background color beraman-->
+    <section class="site-footer-section">
       <div class="site-footer-container">  <!--  container enini belgilab olaman-->
         <div class="site-left-right-wrapper">
           <div class="site-footer-left">         <!-- chap tarafi-->
@@ -330,56 +347,56 @@
           <div class="site-footer-right">     <!-- o'ng taraf-->
             <ul class="footer-right-left-list">   <!-- o'ng tarafni chap qismi-->
 
-                <li class="footer-items">
-                    <a href="#" class="footer-items-link">
-                      Информация о сайте
-                    </a>
-                </li>
+              <li class="footer-items">
+                <a href="#" class="footer-items-link">
+                  Информация о сайте
+                </a>
+              </li>
 
 
-                <li class="footer-items">
-                    <a href="#" class="footer-items-link">
-                      Напишите нам
-                    </a>
-                </li>
+              <li class="footer-items">
+                <a href="#" class="footer-items-link">
+                  Напишите нам
+                </a>
+              </li>
 
 
-                <li class="footer-items">
-                    <a href="#" class="footer-items-link">
-                      Реклама
-                    </a>
-                </li>
+              <li class="footer-items">
+                <a href="#" class="footer-items-link">
+                  Реклама
+                </a>
+              </li>
 
 
-                <li class="footer-items">
-                    <a href="#" class="footer-items-link">
-                      Прислать новость
-                    </a>
-                </li>
+              <li class="footer-items">
+                <a href="#" class="footer-items-link">
+                  Прислать новость
+                </a>
+              </li>
 
             </ul>
 
             <ul class="footer-right-right-list">    <!-- o'ng tarafni o'ng qismi-->
 
-                <li class="footer-items">
-                    <a href="#" class="footer-items-link">
-                      Использование материалов
-                    </a>
-                </li>
+              <li class="footer-items">
+                <a href="#" class="footer-items-link">
+                  Использование материалов
+                </a>
+              </li>
 
 
-                <li class="footer-items">
-                    <a href="#" class="footer-items-link">
-                      Темы дня
-                    </a>
-                </li>
+              <li class="footer-items">
+                <a href="#" class="footer-items-link">
+                  Темы дня
+                </a>
+              </li>
 
 
-                <li class="footer-items">
-                    <a href="#" class="footer-items-link">
-                      Наша команда
-                    </a>
-                </li>
+              <li class="footer-items">
+                <a href="#" class="footer-items-link">
+                  Наша команда
+                </a>
+              </li>
 
             </ul>
           </div>
